@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-typescript-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": {
+    "name": "Abdalla Elmedny",
+    "email": "abdelelmedny@gmail.com",
+    "website": "https://abdelelmedny.firebaseapp.com"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "ts-node": "^3.0.4",
+    "typescript": "^2.3.2"
+  }
+}
