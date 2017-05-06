@@ -7,10 +7,8 @@ export class Foo {
         console.log("Foo constructed");
         
         this._bar = new Bar();
-
-        setTimeout(() => {
-            setInterval(() => this._bar.log("Baz"), 1000);
-        }, 2000)
+        this._bar.log("Baz");
+       
         
     }
 }
