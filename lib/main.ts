@@ -1,14 +1,13 @@
 import { Bar } from './api/bar';
 
-export class Foo {
+export class Main {
     private _bar: Bar;
 
     constructor(){
-        console.log("Foo constructed");
+        console.log("Main constructed");
         
         this._bar = new Bar();
         this._bar.log("Baz");
-       
-        
+            
     }
 }
