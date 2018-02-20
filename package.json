@@ -1,17 +1,17 @@
 {
   "name": "nodejs-typescript-example",
   "version": "1.0.0",
-  "description": "",
+  "description": "Starter project for nodejs projects with typescript",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "nodemon index.js"
   },
   "author": {
     "name": "Abdalla Elmedny",
     "email": "abdelelmedny@gmail.com",
     "website": "https://abdelelmedny.firebaseapp.com"
   },
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "nodemon": "^1.11.0"
   },
